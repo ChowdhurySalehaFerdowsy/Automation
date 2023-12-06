@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "automationlabdemo"
+        },
+        "location": {
+            "value": "Canada Central" 
+        },
+        "dnsPrefix": {
+            "value": "automationlabdemo" 
+        },
+        "osDiskSizeGB": {
+            "value": 128
+        },
+        "agentCount": {
+            "value": 2
+        },
+        "agentVMSize": {
+            "value": "standard_B2s"
+        },
+        "linuxAdminUsername": {
+            "value": "chowdhury" 
+        },
+        "sshRSAPublicKey": {
+            "value":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCr0VA8gcitZ0M5i72IpJuIEgYwaaEkxfNcY3oftY9wkObvbZubB2y1YCPv+qY6tI/KwJ9UMXBseLpsgGWy6RFp9ScErYM1oHVFIKBobjVQtw1Y6acjVe/6I1zGiu1xEq64dyQ3VHl6HJe+6zzhPY9xqtAIim5XtquNjq7Chvb8ZfRdhC9f94O8vcp4Q04YIavlELgoaWoQrIxNfqB912Va7amVcV5NLC+xfIFvZASmHJfR41rKfcAzW9uYdS6BLn+Nwb6k/c+TuZcsD4/4anN7LSSp/i33UOAi7FMO84AgUwia+EJTCQ6B7Bo6I+wsrXkQcTAlk0Ivdb76gQ5Y0pBjO+qWQjSIpi3BR8bI7FDBlCC8FiIRC7y9d3MenDd2QRlxMjYs39X24wRT5zGCBmMTN8Xi8Vxcj5vGnNpmR5U9ue7ea5zu8a5hPh9w0tYX1ZD7LuKtYSlBY0lYYbD984LuhswUgBQoXXd73vHR6fOpRPkYTF0SS+H4RYzprbHmX5E= generated-by-azure" 
+        }
+    }
+}
